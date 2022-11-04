@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ecoho a string 
-      - run: echo "some text"
+        run: echo "some text"
 
 
 
