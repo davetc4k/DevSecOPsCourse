@@ -6,5 +6,15 @@ on:
     - develop
     - main
 
+jobs:
+  run-shell-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ecoho a string 
+      - run: echo "some text"
+
+
+
+
 
 
