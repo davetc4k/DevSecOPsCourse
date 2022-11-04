@@ -1,0 +1,10 @@
+name: devsecops-project
+
+on:
+  push:
+    branches: 
+    - develop
+    - main
+
+
+
