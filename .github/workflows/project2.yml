@@ -1,4 +1,4 @@
-name: devsecops-project-2
+name: devsecops-project
 
 on:
   push:
