@@ -16,9 +16,9 @@ jobs:
         with:
           ref: master
       - name: ZAP Scan
-        uses: zaproxy/action-full-scan@v0.6.1
+        uses: zaproxy/action-full-scan@v0.3.0
         with:
           docker_name: 'owasp/zap2docker-stable'
-          target: 'https://class4kids.co.uk/'
+          target: 'http://testphp.vunweb.com/'
           rules_file_name: '.zap/rules.tsv'
           cmd_options: '-a'
